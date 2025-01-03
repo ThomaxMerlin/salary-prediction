@@ -1,8 +1,7 @@
-# salary-predict
+# Salary Prediction using Linear Regression  
+**With Jupyter Notebook**
 
-# Salary Prediction using Linear Regression
-
-This project demonstrates how to build a linear regression model to predict salary based on features like `YearsExperience` and `Age`. The dataset used is `Salary_Data.csv`, which contains 30 entries with numerical features.
+This Jupyter Notebook demonstrates how to build a linear regression model to predict salary based on features like `YearsExperience` and `Age`. The dataset used is `Salary_Data.csv`, which contains 30 entries with numerical features.
 
 ---
 
@@ -21,9 +20,9 @@ Before running the code, ensure you have the following installed:
 - Python 3.x
 - Required Python libraries:
   ```bash
-  pip install numpy pandas seaborn scikit-learn
+  pip install numpy pandas seaborn scikit-learn jupyter
   ```
-- Jupyter Notebook (optional, for running `.ipynb` files).
+- Jupyter Notebook (to run the `.ipynb` file).
 
 ---
 
@@ -36,21 +35,20 @@ Before running the code, ensure you have the following installed:
    ```
 
 2. **Download the Dataset**  
-   Ensure the dataset `Salary_Data.csv` is in the same directory as the script or notebook.
+   Ensure the dataset `Salary_Data.csv` is in the same directory as the notebook.
+
+3. **Launch Jupyter Notebook**  
+   Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+   Open the `.ipynb` file from the Jupyter Notebook interface.
 
 ---
 
 ## **Running the Code**
-1. **Using Jupyter Notebook**  
-   - Open the `.ipynb` file in Jupyter Notebook.
-   - Run each cell sequentially to execute the code.
-
-2. **Using Python Script**  
-   - Save the code in a `.py` file (e.g., `salary_prediction.py`).
-   - Run the script using:
-     ```bash
-     python salary_prediction.py
-     ```
+1. Open the `.ipynb` file in Jupyter Notebook.
+2. Run each cell sequentially to execute the code.
 
 ---
 
@@ -60,8 +58,10 @@ Before running the code, ensure you have the following installed:
 import numpy as np
 import pandas as pd
 import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
 ```
-- Libraries used for data manipulation and visualization.
+- Libraries used for data manipulation, visualization, and modeling.
 
 ### **2. Load and Explore Data**
 ```python
@@ -145,4 +145,4 @@ If you encounter any issues or have questions, feel free to open an issue in thi
 
 ---
 
-Enjoy exploring the salary prediction model! 🚀
+Enjoy exploring the salary prediction model in Jupyter Notebook! 🚀
